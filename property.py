@@ -18,8 +18,8 @@ class Band:
         self.hometownVal = h
 def main():
     band1 = Band("Title Fight", "Kingston, Pennsylvania")
-    print(f"{band1.name} is from {band1.hometownVal}")
+    # print(f"{band1.name} is from {band1.hometownVal}")
     band1.name = "Glitterer"
-    print(f"{band1.name} is from {band1.hometownVal}")
+    # print(f"{band1.name} is from {band1.hometownVal}")
 if __name__ == "__main__":
     main()
